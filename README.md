@@ -4,12 +4,6 @@
 
 ###
 
-<div align="center">
-  <img height="200" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnI5dzQycXluYnZiN3hhdXY3MWRqYnQ0OXI3MHMzMmxtODN0ZTE2dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/RhGbWYqUJdPWM18zI6/giphy.gif"  />
-</div>
-
-###
-
 <h3 align="left">🧑‍💻  About Me</h3>
 
 ###
