@@ -1,7 +1,7 @@
 # Hi there, I'm Paul 👋
 
 ### 🎓 Master's Student in AI @ **EPITA (SCIA Major)**
-**Data Scientist & Computer Vision Engineer.** I love making sense of complex data and building models that can truly "see". I don't just train models, I build the complete pipelines and annotation tools around them.
+**Data Scientist & Computer Vision Engineer.** I am passionate about building AI systems that solve real-world problems from medical image segmentation to intelligent productivity agents. I don't just train models; I build the complete pipelines and annotation tools around them.
 
 ---
 
