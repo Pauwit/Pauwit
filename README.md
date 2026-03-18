@@ -14,9 +14,9 @@
 * **The Architecture:** Secure server-side session management handling user API keys and workspace authentication for seamless orchestration.
 
 **[EyeSegmentation](https://github.com/Pauwit/EyeSegmentation) — *Computer Vision Pipeline***\
-**End-to-End Pipeline for Optic Disc Semantic Segmentation.** Building systems to accurately classify and segment eye structures (optic discs, eye diaphragms, and eye sides) for medical use.
+**End-to-End Pipeline for Optic Disc Semantic Segmentation.** Building systems to accurately classify and segment eye structures (optic discs, eye diaphragms, and eye sides) for **medical** use.
 * **The Tech:** Python, PyTorch, Jupyter Notebooks.
-* **The AI:** Creating the dataset, training and fine-tuning Ultralytics YOLO11 models for high-precision medical and biological imaging.
+* **The AI:** Creating the dataset, training and fine-tuning **Ultralytics YOLO11** models for high-precision medical and biological imaging.
 * **The Output:** Successfully deployed and hosted the trained model weights on Hugging Face and implemented in the [EyeFlow](https://github.com/DigitalHolography/EyeFlow) program for daily hospital use.
 
 **[GIMP_mask_plugin](https://github.com/Pauwit/GIMP_mask_plugin) — *Workflow Automation***\
