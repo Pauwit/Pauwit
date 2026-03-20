@@ -41,7 +41,7 @@
 * **Core & Systems:** C, C++, C#, Java, Rust, OCaml, Bash
 * **Web & Cloud:** Next.js, React, TypeScript, Node.js, Angular, PostgreSQL, Kafka, Docker
 * **Tools & Game Dev:** Unity, Git, GitLab, CMake, LaTeX, GIMP
-
+<!--
 <br>
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  /> <img width="12" />
@@ -78,7 +78,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gcc/gcc-original.svg" height="40" alt="gcc logo"  /> <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" height="40" alt="latex logo"  /> <img width="12" />
 </div>
-
+-->
 ---
 
 ### 📫 Let's Connect
