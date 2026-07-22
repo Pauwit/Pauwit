@@ -39,6 +39,7 @@
 | [`symbolic-graphrag`](https://github.com/Pauwit/symbolic-graphrag) | GraphRAG pipeline combining knowledge graphs with LLMs for multi-hop retrieval-augmented QA | Python, RDF/property graphs, LLMs |
 | [`GIMP_mask_plugin`](https://github.com/Pauwit/GIMP_mask_plugin) | Custom GIMP 3.0 plugin that speeds up manual dataset annotation for CV pipelines | Python, GIMP API |
 | [`jupyter-claude-integration`](https://github.com/Pauwit/jupyter-claude-integration) | MCP server giving Claude fine-grained read/write/execute access to Jupyter notebooks | Python, MCP |
+| [`azure-demo`](https://github.com/Pauwit/azure-demo) | "StockAI": detects empty shelf space from a photo, forecasts demand, and has an LLM agent decide whether to restock or order from a supplier | Azure Custom Vision, Azure ML, Python, Docker, MCP |
 
 ---
 
@@ -46,7 +47,7 @@
 
 **[Tanks](https://github.com/Pauwit/tanks): *Web Game Engine***\
 **"Tanks in a Nutshell"**: A fully playable, multiplayer, web-based tank combat game built entirely from scratch, **by hand, without AI assistance**.
-* **The Tech:** TypeScript, HTML5.
+* **The Tech:** TypeScript, HTML5, React, Firebase.
 * **The "Why":** A deep dive into custom game engine logic, physics, multiplayer capabilities, and web rendering without relying on heavy out-of-the-box frameworks.
 
 **[ASCII Realms](https://github.com/Pauwit/ascii-realms): *Terminal RPG***\
@@ -60,7 +61,7 @@
 
 * **AI, Data & Vision:** Python, PyTorch, Pandas, NumPy, Jupyter, Matlab, Hugging Face, OR-Tools/CP-SAT
 * **Core & Systems:** C, C++, C#, Java, Rust, OCaml, Scala, Bash
-* **Web & Cloud:** Next.js, React, TypeScript, Node.js, Angular, Tailwind CSS, PostgreSQL, Kafka
+* **Web & Cloud:** Next.js, React, TypeScript, Node.js, Angular, PostgreSQL, Kafka, Firebase, Azure
 * **Tools:** Git, GitLab, GitHub, CMake, Docker, LaTeX
 <!--
 <br>
