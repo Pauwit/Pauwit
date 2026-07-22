@@ -1,45 +1,65 @@
 # Hi there, I'm Paul 👋
 
 ### 🎓 Master's Student in AI @ **EPITA (SCIA Major)**
-**Data Scientist & Computer Vision Engineer.** I am passionate about building AI systems that solve real-world problems from medical image segmentation to intelligent productivity agents. I don't just train models; I build the complete pipelines and annotation tools around them.
+**Data Scientist & Computer Vision Engineer.** I build AI systems that solve real-world problems, from medical image segmentation running in hospitals to agentic productivity tools shipped at hackathons. I don't just train models; I build the complete pipelines around them, and I go low enough to write the compilers and shells underneath them too.
 
 ---
 
-### 🚀 What I'm Building Right Now
+### 🚀 Flagship Projects
 
-**[DealBoard AI Companion](https://github.com/Pauwit/Gemini-3-Hackathon-Paris) — *Gemini Hackathon Paris***\
+**[DealBoard AI Companion](https://github.com/Pauwit/Gemini-3-Hackathon-Paris): *Gemini Hackathon Paris***\
 **Your second brain for work.** A chat/agent-based AI assistant with direct access to your personal Google Workspace to help you manage and analyze your daily tasks.
 * **The Tech:** Next.js, TypeScript, Tailwind CSS, Node.js, Express.
 * **The AI & Integrations:** Powered by **Gemini 3.1 Pro** and deeply connected to Google Workspace APIs with Google OAuth 2.0 thanks to the [Google Workspace CLI](https://github.com/googleworkspace/cli).
 * **The Architecture:** Secure server-side session management handling user API keys and workspace authentication for seamless orchestration.
 
-**[EyeSegmentation](https://github.com/Pauwit/EyeSegmentation) — *Computer Vision Pipeline***\
-**End-to-End Pipeline for Optic Disc Semantic Segmentation.** Building systems to accurately classify and segment eye structures (optic discs, eye diaphragms, and eye sides) for **medical** use.
-* **The Tech:** Python, PyTorch, Jupyter Notebooks.
-* **The AI:** Creating the dataset, training and fine-tuning **Ultralytics YOLO11** models for high-precision medical and biological imaging.
-* **The Output:** Successfully deployed and hosted the trained model weights on Hugging Face and implemented in the [EyeFlow](https://github.com/DigitalHolography/EyeFlow) program for daily hospital use.
+**[EyeSegmentation](https://github.com/Pauwit/EyeSegmentation): *Medical Computer Vision Pipeline***\
+**End-to-end segmentation & classification pipeline for retinal Doppler holography images, in daily hospital use.** Built the full workflow (dataset creation, training, and fine-tuning **Ultralytics YOLO11** models) to segment optic discs and eye diaphragms and classify eye side, for medical diagnostics.
+* **The Tech:** Python, PyTorch, Ultralytics YOLO11, Jupyter Notebooks.
+* **The Research Impact:** This work became the foundation for the Digital Holography Project's official [OpticDiscSegmentation](https://github.com/DigitalHolography/OpticDiscSegmentation) and [LeftRightEyeClassification](https://github.com/DigitalHolography/LeftRightEyeClassification) repos, with trained weights published on Hugging Face.
+* **The Output:** Now running daily in [EyeFlow](https://github.com/DigitalHolography/EyeFlow), the lab's production hospital pipeline.
 
-**[GIMP_mask_plugin](https://github.com/Pauwit/GIMP_mask_plugin) — *Workflow Automation***\
-**Accelerating Manual Data Annotation.** Because a Computer Vision model is only as good as its dataset, I built a custom Python GIMP 3.0 plugin.
-* **The Tech:** Python, GIMP API.
-* **The Impact:** Drastically speeds up manual image segmentation and masking workflows, eliminating repetitive labeling tasks so researchers can focus on the architecture.
+**Tiger Compiler: *EPITA Systems Project* (private repo)**\
+**A full compiler for the Tiger language, targeting LLVM IR.** Built the entire front-to-back pipeline by hand in C++: lexing/parsing (RE/flex + Bison), AST construction, scope binding, type checking, desugaring, escape analysis, and LLVM 18 code generation.
+* **The Tech:** C++, LLVM, Bison, RE/flex, Autotools.
+* **The "Why":** Wanted to understand what actually happens between source code and a running binary, not just use the tools.
 
 ---
 
-### 🎮 Previous Builds & Fun Stuff
+### 🧩 More Projects & Hackathons
 
-**[Tanks](https://github.com/Pauwit/tanks) — *Web Game Engine***\
-**"Tanks in a Nutshell"** — A fully playable, multiplayer, web-based tank combat game built entirely from scratch.
+| Project | What it is | Stack |
+|---|---|---|
+| [`Hackathon-IA-Agentique-YAKAP`](https://github.com/joannejab/Hackathon-IA-Agentique-YAKAP) | 🥉 **3rd place**: 5-agent pipeline auditing course curricula against the job market & state of the art, hallucination-checked | Next.js, TypeScript, LLM agents |
+| [`hackathon_fintech_paris_2026`](https://github.com/Chocolatine75/hackathon_fintech_paris_2026) | "Fine Print": AI covenant compliance review for loan agreements, results shown as an interactive knowledge graph | LLMs (Cerebras/Mistral), knowledge graphs |
+| [`cpp-neural-net`](https://github.com/Pauwit/cpp-neural-net) | Neural network from scratch in C++, no ML libraries, just backprop and SGD on raw matrices, trained on MNIST | C++, CMake |
+| `42sh` (private repo) | POSIX-ish shell written from scratch in C, with a hand-rolled lexer/parser, builtins, expansion, job control | C, Autotools |
+| [`mapf-drone-coordination`](https://github.com/Pauwit/mapf-drone-coordination) | Multi-Agent Path Finding for drone swarms modeled as a CP-SAT problem, with 3D airspace & NOTAM constraints | Python, CP-SAT |
+| [`symbolic-graphrag`](https://github.com/Pauwit/symbolic-graphrag) | GraphRAG pipeline combining knowledge graphs with LLMs for multi-hop retrieval-augmented QA | Python, RDF/property graphs, LLMs |
+| [`GIMP_mask_plugin`](https://github.com/Pauwit/GIMP_mask_plugin) | Custom GIMP 3.0 plugin that speeds up manual dataset annotation for CV pipelines | Python, GIMP API |
+| [`jupyter-claude-integration`](https://github.com/Pauwit/jupyter-claude-integration) | MCP server giving Claude fine-grained read/write/execute access to Jupyter notebooks | Python, MCP |
+
+---
+
+### 🎮 Fun Stuff
+
+**[Tanks](https://github.com/Pauwit/tanks): *Web Game Engine***\
+**"Tanks in a Nutshell"**: A fully playable, multiplayer, web-based tank combat game built entirely from scratch, **by hand, without AI assistance**.
 * **The Tech:** TypeScript, HTML5.
 * **The "Why":** A deep dive into custom game engine logic, physics, multiplayer capabilities, and web rendering without relying on heavy out-of-the-box frameworks.
+
+**[ASCII Realms](https://github.com/Pauwit/ascii-realms): *Terminal RPG***\
+**A turn-based RPG that runs entirely in the terminal.** Wake up with no memory on a procedurally generated continent, explore, fight, loot, and work your way up to two mid-bosses and a final boss.
+* **The Tech:** C++, CMake, Perlin noise.
+* **The Details:** 51x51 procedurally generated world (height & temperature drive biome placement), turn-based combat, enemy AI behaviors (wandering, chasing, fleeing), and a full inventory/looting system.
 
 ---
 
 ### 🧠 My Tech Stack
 
-* **AI, Data & Vision:** Python, PyTorch, Pandas, NumPy, Jupyter, Matlab
-* **Core & Systems:** C, C++, C#, Java, Rust, OCaml, Bash
-* **Web & Cloud:** Next.js, React, TypeScript, Node.js, Angular, PostgreSQL, Kafka, Docker
+* **AI, Data & Vision:** Python, PyTorch, Pandas, NumPy, Jupyter, Matlab, Hugging Face, OR-Tools/CP-SAT
+* **Core & Systems:** C, C++, C#, Java, Rust, OCaml, Bash, LLVM
+* **Web & Cloud:** Next.js, React, TypeScript, Node.js, Angular, Tailwind CSS, PostgreSQL, Kafka, Docker
 * **Tools & Game Dev:** Unity, Git, GitLab, CMake, LaTeX, GIMP
 <!--
 <br>
@@ -84,7 +104,8 @@
 ### 📫 Let's Connect
 
 🌍 **Location:** Paris, France  
-🎓 **Education:** Master of Science in CS & Engineering @ EPITA
+🎓 **Education:** Master of Science in CS & Engineering @ EPITA  
+🧑‍🏫 **Teaching:** C#/OCaml Teaching Assistant @ EPITA (Sept 2024 to Jul 2025), supervising a 1st-year class and designing/running their lab sessions
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paul-stanislas-witkowski)
 
