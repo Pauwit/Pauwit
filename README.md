@@ -15,9 +15,9 @@
 
 **[EyeSegmentation](https://github.com/Pauwit/EyeSegmentation): *Medical Computer Vision Pipeline***\
 **End-to-end segmentation & classification pipeline for retinal Doppler holography images, in daily hospital use.** Built the full workflow (dataset creation, training, and fine-tuning **Ultralytics YOLO11** models) to segment optic discs and eye diaphragms and classify eye side, for medical diagnostics.
-* **The Tech:** Python, PyTorch, Ultralytics YOLO11, Jupyter Notebooks.
+* **The Tech:** Python, PyTorch, Ultralytics YOLO11, Jupyter Notebooks, Matlab.
 * **The Research Impact:** This work became the foundation for the Digital Holography Project's official [OpticDiscSegmentation](https://github.com/DigitalHolography/OpticDiscSegmentation) and [LeftRightEyeClassification](https://github.com/DigitalHolography/LeftRightEyeClassification) repos, with trained weights published on Hugging Face.
-* **The Output:** Now running daily in [EyeFlow](https://github.com/DigitalHolography/EyeFlow), the lab's production hospital pipeline.
+* **The Output:** Now running daily in [EyeFlow](https://github.com/DigitalHolography/EyeFlowMatlab), the lab's production hospital pipeline.
 
 **42sh: *EPITA Systems Project* (private repo)**\
 **A POSIX-ish shell built entirely from scratch in C.** Hand-rolled lexer and recursive-descent parser (no Flex/Bison), covering builtins, variable/glob expansion, pipes, redirections, and job control.
