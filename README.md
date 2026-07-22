@@ -1,7 +1,7 @@
 # Hi there, I'm Paul 👋
 
 ### 🎓 Master's Student in AI @ **EPITA (SCIA Major)**
-**Data Scientist & Computer Vision Engineer.** I build AI systems that solve real-world problems, from medical image segmentation running in hospitals to agentic productivity tools shipped at hackathons. I don't just train models; I build the complete pipelines around them, and I go low enough to write the compilers and shells underneath them too.
+**AI & Systems Engineer.** I build AI systems that solve real-world problems, from medical image segmentation running in hospitals to agentic productivity tools shipped at hackathons, backed by the data infrastructure they run on. I don't just train models or design pipelines: I go low enough to write the compilers and shells underneath them too, and low enough to teach their fundamentals as a C#/OCaml teaching assistant at EPITA.
 
 ---
 
@@ -61,7 +61,7 @@
 * **AI, Data & Vision:** Python, PyTorch, Pandas, NumPy, Jupyter, Matlab, Hugging Face, OR-Tools/CP-SAT
 * **Core & Systems:** C, C++, C#, Java, Rust, OCaml, Scala, Bash
 * **Web & Cloud:** Next.js, React, TypeScript, Node.js, Angular, Tailwind CSS, PostgreSQL, Kafka, Docker
-* **Tools & Game Dev:** Unity, Git, GitLab, CMake, LaTeX, GIMP
+* **Tools:** Git, GitLab, CMake, LaTeX, GIMP
 <!--
 <br>
 <div align="center">
