@@ -61,7 +61,7 @@
 * **AI, Data & Vision:** Python, PyTorch, Pandas, NumPy, Jupyter, Matlab, Hugging Face, OR-Tools/CP-SAT
 * **Core & Systems:** C, C++, C#, Java, Rust, OCaml, Scala, Bash
 * **Web & Cloud:** Next.js, React, TypeScript, Node.js, Angular, Tailwind CSS, PostgreSQL, Kafka
-* **Tools:** Git, GitLab, CMake, Docker, LaTeX
+* **Tools:** Git, GitLab, GitHub, CMake, Docker, LaTeX
 <!--
 <br>
 <div align="center">
