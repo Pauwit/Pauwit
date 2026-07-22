@@ -19,10 +19,10 @@
 * **The Research Impact:** This work became the foundation for the Digital Holography Project's official [OpticDiscSegmentation](https://github.com/DigitalHolography/OpticDiscSegmentation) and [LeftRightEyeClassification](https://github.com/DigitalHolography/LeftRightEyeClassification) repos, with trained weights published on Hugging Face.
 * **The Output:** Now running daily in [EyeFlow](https://github.com/DigitalHolography/EyeFlow), the lab's production hospital pipeline.
 
-**Tiger Compiler: *EPITA Systems Project* (private repo)**\
-**A full compiler for the Tiger language, targeting LLVM IR.** Built the entire front-to-back pipeline by hand in C++: lexing/parsing (RE/flex + Bison), AST construction, scope binding, type checking, desugaring, escape analysis, and LLVM 18 code generation.
-* **The Tech:** C++, LLVM, Bison, RE/flex, Autotools.
-* **The "Why":** Wanted to understand what actually happens between source code and a running binary, not just use the tools.
+**42sh: *EPITA Systems Project* (private repo)**\
+**A POSIX-ish shell built entirely from scratch in C.** Hand-rolled lexer and recursive-descent parser (no Flex/Bison), covering builtins, variable/glob expansion, pipes, redirections, and job control.
+* **The Tech:** C, Autotools.
+* **The "Why":** Wanted to understand what a shell is actually doing between a keystroke and a running process, not just use one.
 
 ---
 
@@ -33,7 +33,7 @@
 | [`Hackathon-IA-Agentique-YAKAP`](https://github.com/joannejab/Hackathon-IA-Agentique-YAKAP) | 🥉 **3rd place**: 5-agent pipeline auditing course curricula against the job market & state of the art, hallucination-checked | Next.js, TypeScript, LLM agents |
 | [`hackathon_fintech_paris_2026`](https://github.com/Chocolatine75/hackathon_fintech_paris_2026) | "Fine Print": AI covenant compliance review for loan agreements, results shown as an interactive knowledge graph | LLMs (Cerebras/Mistral), knowledge graphs |
 | [`cpp-neural-net`](https://github.com/Pauwit/cpp-neural-net) | Neural network from scratch in C++, no ML libraries, just backprop and SGD on raw matrices, trained on MNIST | C++, CMake |
-| `42sh` (private repo) | POSIX-ish shell written from scratch in C, with a hand-rolled lexer/parser, builtins, expansion, job control | C, Autotools |
+| `Tiger Compiler` (private repo) | Full compiler for the Tiger language targeting LLVM IR: lexing/parsing (Bison + RE/flex), AST, scope binding, type checking, desugaring, escape analysis, LLVM codegen | C++, LLVM, Bison, RE/flex, Autotools |
 | `introduction-au-data-engineering` (private repo) | Data architecture PoC for real-time forest fire detection at IoT scale (~10M devices, 200GB/day), sub-second alerting plus long-term analytics | Kafka, Spark Structured Streaming, Akka HTTP, HDFS, Scala |
 | [`mapf-drone-coordination`](https://github.com/Pauwit/mapf-drone-coordination) | Multi-Agent Path Finding for drone swarms modeled as a CP-SAT problem, with 3D airspace & NOTAM constraints | Python, CP-SAT |
 | [`symbolic-graphrag`](https://github.com/Pauwit/symbolic-graphrag) | GraphRAG pipeline combining knowledge graphs with LLMs for multi-hop retrieval-augmented QA | Python, RDF/property graphs, LLMs |
