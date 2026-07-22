@@ -34,6 +34,7 @@
 | [`hackathon_fintech_paris_2026`](https://github.com/Chocolatine75/hackathon_fintech_paris_2026) | "Fine Print": AI covenant compliance review for loan agreements, results shown as an interactive knowledge graph | LLMs (Cerebras/Mistral), knowledge graphs |
 | [`cpp-neural-net`](https://github.com/Pauwit/cpp-neural-net) | Neural network from scratch in C++, no ML libraries, just backprop and SGD on raw matrices, trained on MNIST | C++, CMake |
 | `42sh` (private repo) | POSIX-ish shell written from scratch in C, with a hand-rolled lexer/parser, builtins, expansion, job control | C, Autotools |
+| `introduction-au-data-engineering` (private repo) | Data architecture PoC for real-time forest fire detection at IoT scale (~10M devices, 200GB/day), sub-second alerting plus long-term analytics | Kafka, Spark Structured Streaming, Akka HTTP, HDFS, Scala |
 | [`mapf-drone-coordination`](https://github.com/Pauwit/mapf-drone-coordination) | Multi-Agent Path Finding for drone swarms modeled as a CP-SAT problem, with 3D airspace & NOTAM constraints | Python, CP-SAT |
 | [`symbolic-graphrag`](https://github.com/Pauwit/symbolic-graphrag) | GraphRAG pipeline combining knowledge graphs with LLMs for multi-hop retrieval-augmented QA | Python, RDF/property graphs, LLMs |
 | [`GIMP_mask_plugin`](https://github.com/Pauwit/GIMP_mask_plugin) | Custom GIMP 3.0 plugin that speeds up manual dataset annotation for CV pipelines | Python, GIMP API |
@@ -58,7 +59,7 @@
 ### 🧠 My Tech Stack
 
 * **AI, Data & Vision:** Python, PyTorch, Pandas, NumPy, Jupyter, Matlab, Hugging Face, OR-Tools/CP-SAT
-* **Core & Systems:** C, C++, C#, Java, Rust, OCaml, Bash, LLVM
+* **Core & Systems:** C, C++, C#, Java, Rust, OCaml, Scala, Bash
 * **Web & Cloud:** Next.js, React, TypeScript, Node.js, Angular, Tailwind CSS, PostgreSQL, Kafka, Docker
 * **Tools & Game Dev:** Unity, Git, GitLab, CMake, LaTeX, GIMP
 <!--
