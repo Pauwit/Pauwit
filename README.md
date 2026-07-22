@@ -35,6 +35,7 @@
 | [`cpp-neural-net`](https://github.com/Pauwit/cpp-neural-net) | Neural network from scratch in C++, no ML libraries, just backprop and SGD on raw matrices, trained on MNIST | C++, CMake |
 | `Tiger Compiler` (private repo) | Full compiler for the Tiger language targeting LLVM IR: lexing/parsing (Bison + RE/flex), AST, scope binding, type checking, desugaring, escape analysis, LLVM codegen | C++, LLVM, Bison, RE/flex, Autotools |
 | `introduction-au-data-engineering` (private repo) | Data architecture PoC for real-time forest fire detection at IoT scale (~10M devices, 200GB/day), sub-second alerting plus long-term analytics | Kafka, Spark Structured Streaming, Akka HTTP, HDFS, Scala |
+| `EpiTweet` (private repo, team of 14) | Distributed Twitter clone built as 5 event-driven microservices (users, posts, likes, timelines, search), decoupled via pub/sub and deployed on Kubernetes | Java, Quarkus, MongoDB, Neo4j, Elasticsearch, Redis, Kubernetes |
 | [`mapf-drone-coordination`](https://github.com/Pauwit/mapf-drone-coordination) | Multi-Agent Path Finding for drone swarms modeled as a CP-SAT problem, with 3D airspace & NOTAM constraints | Python, CP-SAT |
 | [`symbolic-graphrag`](https://github.com/Pauwit/symbolic-graphrag) | GraphRAG pipeline combining knowledge graphs with LLMs for multi-hop retrieval-augmented QA | Python, RDF/property graphs, LLMs |
 | [`GIMP_mask_plugin`](https://github.com/Pauwit/GIMP_mask_plugin) | Custom GIMP 3.0 plugin that speeds up manual dataset annotation for CV pipelines | Python, GIMP API |
@@ -62,7 +63,7 @@
 * **AI, Data & Vision:** Python, PyTorch, Pandas, NumPy, Jupyter, Matlab, Hugging Face, OR-Tools/CP-SAT
 * **Core & Systems:** C, C++, C#, Java, Rust, OCaml, Scala, Bash
 * **Web & Cloud:** Next.js, React, TypeScript, Node.js, Angular, PostgreSQL, Kafka, Firebase, Azure
-* **Tools:** Git, GitLab, GitHub, CMake, Docker, LaTeX
+* **Tools:** Git, GitLab, GitHub, CMake, Docker, LaTeX, Neo4j
 <!--
 <br>
 <div align="center">
