@@ -40,7 +40,7 @@
 | [`symbolic-graphrag`](https://github.com/Pauwit/symbolic-graphrag) | GraphRAG pipeline combining knowledge graphs with LLMs for multi-hop retrieval-augmented QA | Python, RDF/property graphs, LLMs |
 | [`GIMP_mask_plugin`](https://github.com/Pauwit/GIMP_mask_plugin) | Custom GIMP 3.0 plugin that speeds up manual dataset annotation for CV pipelines | Python, GIMP API |
 | [`jupyter-claude-integration`](https://github.com/Pauwit/jupyter-claude-integration) | MCP server giving Claude fine-grained read/write/execute access to Jupyter notebooks | Python, MCP |
-| [`azure-demo`](https://github.com/Pauwit/azure-demo) | "StockAI": detects empty shelf space from a photo, forecasts demand, and has an LLM agent decide whether to restock or order from a supplier | Azure Custom Vision, Azure ML, Python, Docker, MCP |
+| [`stockai`](https://github.com/Pauwit/stockai) | "StockAI": detects empty shelf space from a photo, forecasts demand, and has an LLM agent decide whether to restock or order from a supplier | Azure Custom Vision, Azure ML, Python, Docker, MCP |
 
 ---
 
